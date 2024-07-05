@@ -1,21 +1,6 @@
 ## ✍️ Formula to Latex
 <br>
 
-## 목차
-
-- [1. 프로젝트 배경 및 목적](#프로젝트-배경-및-목적)
-- [2. 주최/주관 & 팀원](#주최/주관-&-팀원)
-- [3. 프로젝트 기간](#프로젝트-기간)
-- [4. 프로젝트 소개](#프로젝트-소개)
-- [5. WebUI Inference](#WebUI-Inference)
-- [6. Formula CSV Inference](#Formula-CSV-Inference)
-- [7. 느낀점](#느낀점)
-- [8. 발표자료](#발표자료)
-
-<br>
-<br>
-
-
 ## 1. 프로젝트 배경 및 목적
 
 - 논문 번역 시 수식 변환의 어려움 존재
@@ -75,7 +60,6 @@
 
 ## 5. WebUI Inference
 ![play](https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/assets/97331900/a5b42e61-616e-4c29-81ce-01db58071d38)
-<br>
 <br>
 <br>
 
