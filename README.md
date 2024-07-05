@@ -1,6 +1,6 @@
 ![font_logo](doc/font_logo.png)
 
-# 주제: Formula to Latex
+## ✍️ Formula to Latex
 
 <img width="777" alt="image" src="https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/assets/100743813/6b9801e8-26a6-4c37-a7a0-091be7549da3">
 
