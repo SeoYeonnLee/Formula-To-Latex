@@ -1,44 +1,9 @@
-![font_logo](doc/font_logo.png)
-
 ## ✍️ Formula to Latex
-
-<img width="777" alt="image" src="https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/assets/100743813/6b9801e8-26a6-4c37-a7a0-091be7549da3">
-
----
-
-#### 사용 모델
-* [Pix2tex - LatexOCR](https://github.com/lukas-blecher/LaTeX-OCR)
-  
-<img width="739" alt="image" src="https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/assets/100743813/9fc02872-52be-4603-b2ef-20c01638ffd3">
-
-
 <br>
-<br>
-<br>
-<br>
-
-- [YOLO v8](https://github.com/HumanSignal/labelImg)
-
-  
-<img width="675" alt="image" src="https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/assets/100743813/7ebe9c83-3b50-4b7a-ade5-b668caea90bb">
-
-<br>
-<br>
-
-* 사용시 해당 GitHub Clone 해서 사용해야 합니다.
-
----
-
-#### 데이터
-* [M2LATEX-100K (Kaggle)](https://www.kaggle.com/datasets/shahrukhkhan/im2latex100k)
-  
-<img width="328" alt="image" src="https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/assets/100743813/56e1f406-2666-4b60-a017-4decd0627eb4">
-
----
 
 ## 목차
 
-- [1. 배경 및 목적](#배경-및-목적)
+- [1. 프로젝트 배경 및 목적](#프로젝트-배경-및-목적)
 - [2. 주최/주관 & 팀원](#주최/주관-&-팀원)
 - [3. 프로젝트 기간](#프로젝트-기간)
 - [4. 프로젝트 소개](#프로젝트-소개)
@@ -47,56 +12,60 @@
 - [7. 느낀점](#느낀점)
 - [8. 발표자료](#발표자료)
 
----
+<br>
+<br>
 
-## 1. 배경 및 목적
 
-* 논문 번역 시 수식 변환의 어려움 존재
-* 기존에 존재하는 PDF to LaTex가 제대로 작동되지 않음
-* WebUI를 통해 원하는 Formula를 변환해서 논문 번역 시 수월하게 사용할 수 있게끔 배포하는 것이 목적
+## 1. 프로젝트 배경 및 목적
 
----
+- 논문 번역 시 수식 변환의 어려움 존재
+- 기존에 존재하는 PDF to LaTex가 제대로 작동되지 않음
+- WebUI를 통해 원하는 Formula를 변환해서 논문 번역 시 수월하게 사용할 수 있게끔 배포하는 것이 목적
+
+<br>
 
 ## 2. 주최/주관 & 팀원
 
-* 주최/주관: AI빅데이터융합경영학과 딥러닝 논문 분석 학회 X:AI 4기 CV2 TEAM
-* 팀원: 총 4명 (황건하, 이승학, 유광열, 이서연)
+- 주최/주관: AI빅데이터융합경영학과 인공지능 학회 X:AI 4기 CV2 TEAM
+- 팀원: 학부생 4명 (황건하, 이승학, 유광열, 이서연)
 
----
+<br>
 
 ## 3. 프로젝트 기간
 
-*  2023.07.06 ~ 2023.09.18
+- 2023.07.06 ~ 2023.09.18
 
----
+<br>
 
 ## 4. 프로젝트 소개
-
-* 논문 리뷰 또는 논문 번역 시 수식 변환을 쉽게 만들어주는 프로젝트
-
+- 논문 리뷰 또는 논문 번역 시 수식 변환을 쉽게 만들어주는 프로젝트
+<img width="777" alt="image" src="https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/assets/100743813/6b9801e8-26a6-4c37-a7a0-091be7549da3">
 <img width="873" alt="image" src="https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/assets/100743813/3dc67f68-baab-4ad9-82d9-43f1b463965a">
+<br>
 
+### 4.1. 사용 모델 및 데이터
+- 사용 모델: [Pix2tex - LatexOCR](https://github.com/lukas-blecher/LaTeX-OCR), [YOLO v8](https://github.com/HumanSignal/labelImg)
+- 데이터: [M2LATEX-100K (Kaggle)](https://www.kaggle.com/datasets/shahrukhkhan/im2latex100k)
+<br>
 
-### 4.1. 과정
+### 4.2. 과정
+- WebUI를 통해 원하는 논문의 Formula를 변환
+    - YOLO v8을 통해 Formula Detection 진행
+    - Pix2tex-LaexOCR model 활용
+- 논문 속 모든 Formula를 Latex로 변환 후 csv로 반환
+    - 반환된 Latex 언어 복사하여 사용
+<br>
 
-* WebUI를 통해 원하는 논문의 Formula를 변환
-    * YOLO v8을 통해 Formula Detection 진행
-    * Pix2tex-LaexOCR model 활용
-* 논문 속 모든 Formula를 Latex로 변환 후 csv로 반환
-    * 반환된 Latex 언어 복사하여 사용
-
-### 4.2. 기대효과
-
+### 4.3. 기대효과
 * 논문 리뷰 작성할 때 수식 입력이 편해짐
 * 처음보는 수학 기호에 대한 Latex를 찾아 볼 필요가 없음
 * 전체 논문 번역 시 자연스러운 번역 결과가 나올 것으로 기대
+<br>
 
-### 4.3.한계점
-
-* 대량의 데이터를 활용하지 못함
-* WebUI를 예쁘게 만들지 못함
-
----
+### 4.4. 한계점
+- 대량의 데이터를 활용하지 못함
+- WebUI를 예쁘게 만들지 못함
+<br>
 
 ## 5. WebUI Inference
 ![play](https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/assets/97331900/a5b42e61-616e-4c29-81ce-01db58071d38)
@@ -115,7 +84,7 @@
 <br>
 (4) 2-3초 기다리면 밑에 copy text가 나오고, 변환된 Latex 언어를 복사하여 사용
 
----
+<br>
 
 ## 6. Formula CSV Inference
 
@@ -130,7 +99,7 @@
 <br>
 (4) output.csv 사용
 
----
+<br>
 
 ## 7. 느낀점
 
@@ -145,13 +114,13 @@
 
 **이서연**
 - 'Formula to Latex'라는 주제를 WebUI를 이용한 방법과 Detection을 통해  모든 수식을 변환하는 방법 2가지로 구현할 수 있어 좋았다. 데이터 라벨링부터, Detection, WebUI 제작 등 많은 경험을 할 수 있었던 프로젝트였다. 여러 시행착오가 있었으나 원하는 결과물을 얻었을 때 큰 성취감을 느꼈으며, 한 단계 성장하는 계기가 되었다.
----
+<br>
 
 ## 8. 발표자료
 
-* <a href="https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/blob/main/TeamCV2/doc/XAI%20%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%80%E1%85%A1%E1%86%AB%20%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%20%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD.pdf">XAI 중간 발표 자료.pdf</a>
+- <a href="https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/blob/main/TeamCV2/doc/XAI%20%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%80%E1%85%A1%E1%86%AB%20%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%20%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD.pdf">XAI 중간 발표 자료.pdf</a>
 
-* <a href="https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/blob/main/TeamCV2/doc/XAI%20%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC%20%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%20%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD.pdf">XAI 최종 발표 자료.pdf</a>
+- <a href="https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/blob/main/TeamCV2/doc/XAI%20%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC%20%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%20%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD.pdf">XAI 최종 발표 자료.pdf</a>
 
 
 
