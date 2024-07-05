@@ -38,9 +38,15 @@
 <br>
 
 ## 4. 프로젝트 소개
+- Formula To Latex: 수학 공식을 Latex 형식으로 변환하는 도구나 알고리즘
+<img src="https://github.com/SeoYeonnLee/Formula-To-Latex/assets/105186555/5f1bfb20-ce2a-4359-97bc-117113b6539a.png" width="600" height="200"/>
+<br>
+<br>
+
 - 논문 리뷰 또는 논문 번역 시 수식 변환을 쉽게 만들어주는 프로젝트
-<img width="777" alt="image" src="https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/assets/100743813/6b9801e8-26a6-4c37-a7a0-091be7549da3">
-<img width="873" alt="image" src="https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/assets/100743813/3dc67f68-baab-4ad9-82d9-43f1b463965a">
+<img src="https://github.com/SeoYeonnLee/Formula-To-Latex/assets/105186555/f0625b91-1129-45ad-9392-33d31f9cb10b.png" width="450" height="250"/>
+<img src="https://github.com/SeoYeonnLee/Formula-To-Latex/assets/105186555/baabfa9a-dba5-4df4-ac24-b5f407c05788.png" width="450" height="250"/>
+<br>
 <br>
 
 ### 4.1. 사용 모델 및 데이터
