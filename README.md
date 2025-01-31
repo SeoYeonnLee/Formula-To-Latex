@@ -2,7 +2,7 @@
 <br>
 
 ## Overview
-논문의 수식을 Latex 형식으로 자동 변환하는 도구입니다. PDF 형식의 논문에서 수식을 자동으로 감지하고, 이를 Latex 코드로 변환하여 논문 번역과 리뷰 작성을 더욱 수월하게 만들어줍니다.
+이미지 형태로 된 수식을 OCR 모델을 통해 Latex 형식으로 자동 변환하는 도구
 
 <img src="https://github.com/SeoYeonnLee/Formula-To-Latex/assets/105186555/5f1bfb20-ce2a-4359-97bc-117113b6539a.png" width="600" height="200"/>
 
@@ -82,10 +82,3 @@ python Formula_WebUI.py
 
 ## WebUI Inference
 ![play](https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/assets/97331900/a5b42e61-616e-4c29-81ce-01db58071d38)
-
-<br>
-
-## Reference
-- <a href="https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/blob/main/TeamCV2/doc/XAI%20%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%80%E1%85%A1%E1%86%AB%20%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%20%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD.pdf">XAI 중간 발표 자료.pdf</a>
-
-- <a href="https://github.com/X-AI-eXtension-Artificial-Intelligence/4th-ADV-SESSION/blob/main/TeamCV2/doc/XAI%20%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC%20%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%20%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD.pdf">XAI 최종 발표 자료.pdf</a>
